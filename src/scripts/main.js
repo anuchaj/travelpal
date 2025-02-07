@@ -20,3 +20,10 @@ document.querySelector("#searchBtn").addEventListener("click", () => {
     // Display reviews
   });
 });
+
+
+// Toggle menu visibility for mobile
+function toggleMenu() {
+  const menu = document.getElementById('menu').querySelector('ul');
+  menu.classList.toggle('active');
+}

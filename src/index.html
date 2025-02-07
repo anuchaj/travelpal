@@ -14,8 +14,6 @@
 
     <!-- Libraries Stylesheet -->
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 
     <!-- Google Web Fonts -->
@@ -26,54 +24,31 @@
   </head>
 
   <body>
-
     <!-- Header contents -->
     <header>
-        <div class="banner">
-            <p id="banner_msg"></p>
-        </div>
-
-        <div class="menu_bar">
-            <div class="menu_btn">
-                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><a href="#">Travel<span>Pal</span></a></h1>
             </div>
-            
-            <a href="index.html" id="hd-logo">
-                <picture>
-                    <source srcset="images/logo-1.png" media="(min-width: 400px)">
-                    <img src="images/logo-01.webp" alt="Aba Chamber of Commerce Logo">
-                </picture>
-            </a>
-            
-            <div class="compName">
-                <p id="compName_line1"><b>TravelPal</b></p>
-                <p id="compName_line2">Travel Planner and Agency</p>
-            </div>
-
-            <nav class="bar_wide">
-                <ul id="primaryLinks">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="discover.html">Destinations</a></li>
-                    <li><a href="directory.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="join.html">Sign Up</a></li>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
-            </nav>
-    
-            <div class="social_icons">
-                <a href="https://www.facebook.com/"><img src="images/fb-icon.png" alt="Facebook Icon"></a>
-                <a href="https://www.linkedin.com/"><img src="images/in-icon.png" alt="Linked Icon"></a>
             </div>
-        </div>
-
-        <nav class="nav_bar">
-            <ul id="primaryNav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Destinations</a></li>
-                <li><a href="directory.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="join.html">Sign Up</a></li>
-            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="auth">
+                <button class="sign-in">Sign In</button>
+                <button class="sign-up">Sign Up</button>
+            </div>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
         </nav>
 
         <div class="date"></div>
@@ -90,18 +65,10 @@
                 <source srcset="images/heroimg1100w.webp" media="(min-width: 1100px)">
                 <img class="heroImg" src="images/heroimg250w.webp" alt="Banner Hero Image">
             </picture>                      
-            <h1 class="welcome_txt">Welcome to Aba</h1>
+            <h1 class="welcome_txt">Welcome <span></span> </h1>
             <div class="callToAction">
                 <a class="heroBtn" href="join.html">Join the chamber</a>
             </div>
-        </div>
-
-        <!-- Events -->
-        <div class="events">
-            <h1>Ribbon Cutting</h1>
-            <h2>💎 The Diamond Shack</h2>
-            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 pm.</p>
-            <a href="#">More Info...</a>
         </div>
 
         <!-- Weather -->
@@ -148,10 +115,13 @@
         </a>
         <section>
             <h5>TravelPal</h5>
-            <p>Aba, Nigeria</p>
             <p><a class="openWeather" href="https://openweathermap.org/" 
                 style="text-decoration: none;">Weather Info from OpenWeather.org</a>
-            </p> 
+            </p>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/"><img src="images/fb-icon.png" alt="Facebook Icon"></a>
+                <a href="https://www.linkedin.com/"><img src="images/in-icon.png" alt="Linked Icon"></a>
+            </div>
         </section>
         <section>
             <p>info@abachambers.com</p>
@@ -166,8 +136,6 @@
         </section>
     </footer>
 
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/spotlight.js"></script>
 	<script src="scripts/main.js"></script>
   </body>
 </html>

@@ -143,46 +143,13 @@ p, a{
     color: black;
 }
 
-/* Spots */
-main div.spots {
-    margin: 0;
-    text-align: center;
-    color: black;
-}
-
-section.spots {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-}
-
-main div.spots h2 {
-    color: rgb(21, 28, 94);
-}
-
-section.spots:nth-child(3) {
-    display: none;
-}
-
-/* Join Us - Sport Three hidden */
-.joinUs {
-    display: none;
-}
 
 /* Here is the footer*/
-footer{
+footer {
     text-align: center;
     background-color: #00272b;
     color: white;
     padding: 5%;
-}
-
-footer .logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 a.map, a.openWeather {

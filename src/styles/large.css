@@ -167,7 +167,7 @@ h3 {
     background-color: rgba(240, 240, 240, 0.8);
 } 
 
-h1 {
+div.action h1 {
     background-color: rgba(240, 240, 240, 0.8);
 }
 
@@ -190,6 +190,33 @@ a {
 
 .weatherInfo3 {
     grid-column: 3;
+}
+
+
+
+ /* footer*/
+footer section:nth-child(1), footer section:nth-child(2) {
+    text-align: center;
+}
+
+footer h1{
+    font-size: 32px;
+    margin-top: 0;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.very-bottom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.very-bottom p{
+    display: block;
+    font-size: 18px;
 }
 
 

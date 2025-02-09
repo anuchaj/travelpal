@@ -94,6 +94,7 @@ body {
 /* Auth Buttons */
 .auth button {
     padding: 8px 15px;
+    margin-top: 3px;
     margin-left: 15px;
     border: none;
     background-color: var(--main-color);
@@ -103,10 +104,6 @@ body {
     color: white;
 }
 
-.auth button:hover {
-    background-color: var(--second-color);
-    color: var(--accent);
-}
 
 /* Hamburger Icon */
 .hamburger {
@@ -133,9 +130,7 @@ div.hero {
     width: 100%;
 }
 
-.hero img {
-    width: 100%;
-}
+.hero img {width: 100%;}
 
 .action {
     grid-column: 1 / 2;
@@ -147,33 +142,42 @@ div.hero {
     justify-items: center;
     align-content: center;
 }
-.action button {
+.action a {
     line-height: 2em;
-    width: 10em;
-    background-color: #e7c24f;
-    font-size: 1.2em;
+    width: 11em;
+    color: white;
+    background-color: var(--main-color);
+    font-size: 1.5em;
     border-radius: 20px 20px;
-    padding: 1.5px;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.action a:hover, .auth button:hover {
+    background-color: white;
+    color: var(--accent);
 }
 
 h3 {
-    color: #001d3d;
-    font-family: Merriweather;
+    color: black;
+    font-family: var(--header-font);
     font-size: 25px;
-    border-top: 5px double;
-    border-bottom: 5px double;
-    padding: .5em;
+    /* border-top: 5px double;
+    border-bottom: 5px double;*/
+    padding: .3em;
+    margin-top: .2em;
     margin-bottom: 1em;
     background-color: rgba(240, 240, 240, 0.8);
 } 
 
 div.action h1 {
+    color: var(--accent);
     background-color: rgba(240, 240, 240, 0.8);
+    font-size: 60px;
+    margin: 0px;
+    padding: .2em;
 }
 
-a {
-    text-decoration: none;
-}
 
 /* Weather information */
 .localWthr {
@@ -218,10 +222,6 @@ footer p{
     display: block;
     font-size: 18px;
 }
-
-
-
-
 
 
 

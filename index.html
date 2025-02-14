@@ -7,14 +7,16 @@
     <title>TravelPal | Travel Planner and Agency  </title>
     <meta name="viewport" content="width=device-width">
     <meta content="" name="keywords">
-    <meta name = "description" content = "This is the Aba Chamber of Commerce Site">
+    <meta name = "description" content = "This is TravelPal">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- Libraries Stylesheet -->
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/baseStyle.css">
+    <!-- <link rel="stylesheet" href="styles/medium.css"> -->
+    <link rel="stylesheet" href="styles/small.css">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +32,7 @@
             <div class="logo">
                 <h1><a href="#">Travel<span>Pal</span></a></h1>
             </div>
-            <div class="menu" id="menu">
+            <div class="menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Destinations</a></li>
@@ -51,7 +53,6 @@
             </div>
         </nav>
 
-        <div class="date"></div>
     </header>
 
     <!-- Main contents starts here -->
@@ -80,7 +81,7 @@
          </div>
 
         <!-- Weather forecast -->
-        <div class="localWthr">
+        <div class="localWeatherForecast">
             <div class="weatherInfo1">
                 <h1 class="weather">Today</h1>
                 <img src="iconsource" alt="description" id="weatherIcon">
@@ -122,15 +123,13 @@
     <!-- Footer starts here -->
     <footer>
         <section>
-            <a href="index.html">
-                <h1>Travel<span></span>Pal</h1>
-            </a>
+            <a href="index.html"><h1>Travel<span></span>Pal</h1></a>
             <p><a class="openWeather" href="https://openweathermap.org/" 
                 style="text-decoration: none;">Weather Info from OpenWeather.org</a>
             </p>
             <div class="social_icons">
-                <a href="https://www.facebook.com/"><img src="images/fb-icon.png" alt="Facebook Icon"></a>
-                <a href="https://www.linkedin.com/"><img src="images/in-icon.png" alt="Linked Icon"></a>
+                <a href="https://www.facebook.com/"><img src="assets/images/fb-icon.png" alt="Facebook Icon"></a>
+                <a href="https://www.linkedin.com/"><img src="assets/images/in-icon.png" alt="Linked Icon"></a>
             </div>
         </section>
         <section>
@@ -138,14 +137,14 @@
             <p>+234 (806) 432 7684</p>
             <p><a class="map" href=https://tinyurl.com/abainthemap>📍 Location Map</a></p>
         </section>
-        <section class="very-bottom">
-            <p>&#169;2025 TravelPal | </p>
-            <p>| Joseph Anucha | </p>
-            <p>| WDD 330 Final Project</p>
+        <section class="baseFooter">
+            <p>&#169;2025 TravelPal</p>
+            <p>Joseph Anucha</p>
+            <p>WDD 330 Final Project</p>
             <section id="timemod"></section>
         </section>
     </footer>
 
-	<script src="scripts/main.js"></script>
+	<!-- <script src="scripts/main.js"></script>-->
   </body>
 </html>

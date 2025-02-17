@@ -192,6 +192,7 @@ div.action h1 {
     grid-row: 1;
     height: 250px;
     background-color: var(--third-color);
+    text-align: center;
 }
 
 .userWeatherInfo {
@@ -199,6 +200,7 @@ div.action h1 {
     grid-row: 2;
     height: 250px;
     background-color: var(--third-color);
+    text-align: center;
 }
 
 .placeMap {
@@ -216,6 +218,7 @@ div.action h1 {
     gap: 0.4rem;
     padding: 5rem auto;
     margin: 3rem 0;
+    text-align: center;
 }
 
 .weatherInfo1 {

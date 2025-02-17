@@ -49,7 +49,7 @@
             <!-- Search bar -->
             <div class="search">
                 <input type="text" id="location" placeholder="Enter city, state, or country" />
-                <button class="search-btn">🔍</button>
+                <button class="search-btn" onclick="searchLocation()">🔍</button>
             </div>
 
             <!--
@@ -97,12 +97,13 @@
             <div class="placeInfo">
                 <h1 class="locationName"></h1>
             </div>
-            <div class="userWeatherInfo"></div>
-            <div class="placeMap"></div>
+            <div class="userWeatherInfo" id="userWeatherInfo"></div>
+
+            <div class="placeMap" id="map"></div>
          </div>
 
         <!-- Weather forecast -->
-        <div class="localWeatherForecast">
+        <div class="localWeatherForecast" id="weatherForecast">
             <div class="weatherInfo1">
                 <h1 class="weather">Today</h1>
                 <img src="iconsource" alt="description" id="weatherIcon">
@@ -167,6 +168,7 @@
     </footer>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+	<script src="scripts/geoScript.js"></script>
 	<script src="scripts/main.js"></script>
   </body>
 </html>

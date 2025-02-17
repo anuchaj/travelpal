@@ -18,6 +18,8 @@
     <!-- <link rel="stylesheet" href="styles/medium.css"> -->
     <link rel="stylesheet" href="styles/small.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,9 +31,12 @@
     <!-- Header contents -->
     <header>
         <nav class="navbar">
+            <!-- Logo and business name -->
             <div class="logo">
                 <h1><a href="#">Travel<span>Pal</span></a></h1>
             </div>
+
+            <!-- Menu bar -->
             <div class="menu">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -40,14 +45,27 @@
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
+
+            <!-- Search bar -->
             <div class="search">
-                <input type="text" placeholder="Search... Boise, Idaho ">
+                <input type="text" id="location" placeholder="Enter city, state, or country" />
                 <button class="search-btn">🔍</button>
             </div>
+
+            <!--
+            <div id="search-container">
+                <input type="text" id="location" placeholder="Enter city, state, or country" />
+                <button onclick="searchLocation()">Search</button>
+                <h1 class="locationName"></h1>
+            </div> -->
+
+            <!-- Sign in and sign out -->
             <div class="auth">
                 <button class="sign-in">Sign In</button>
                 <button class="sign-up">Sign Up</button>
             </div>
+
+            <!-- Hamburger button -->
             <div class="hamburger" id="hamburger" onclick="toggleMenu()">
                 ☰
             </div>
@@ -76,7 +94,10 @@
 
         <!-- Location info -->
          <div class="localInfo">
-            <div class="placeInfo"></div>
+            <div class="placeInfo">
+                <h1 class="locationName"></h1>
+            </div>
+            <div class="userWeatherInfo"></div>
             <div class="placeMap"></div>
          </div>
 
@@ -145,6 +166,7 @@
         </section>
     </footer>
 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 	<script src="scripts/main.js"></script>
   </body>
 </html>

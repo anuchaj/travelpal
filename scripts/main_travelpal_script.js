@@ -1,3 +1,5 @@
+// Author: Joseph Anucha
+
 //Main JS logic for all modules
 
 import { getWeatherData } from '../modules/weather.js';
@@ -27,3 +29,12 @@ function toggleMenu() {
   const menu = document.getElementById('menu').querySelector('ul');
   menu.classList.toggle('active');
 }
+
+// Function to toggle the menu bar on smaller viewport
+//function toggleMenu(){
+    //document.querySelector('#primaryNav').classList.toggle('open');
+    //document.querySelector('#hamburgerBtn').classList.toggle('open');
+//}
+
+//const hamButton = document.querySelector('#hamburgerBtn');
+//hamButton.onclick = toggleMenu;

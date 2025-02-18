@@ -40,24 +40,17 @@
             <div class="menu">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
                 </ul>
             </div>
 
             <!-- Search bar -->
             <div class="search">
                 <input type="text" id="location" placeholder="Enter city, state, or country" />
-                <button class="search-btn" onclick="searchLocation()">🔍</button>
+                <button class="search-btn" onclick="searchLocation()"><a class="link" href="#infoMap">🔍</a></button>
             </div>
-
-            <!--
-            <div id="search-container">
-                <input type="text" id="location" placeholder="Enter city, state, or country" />
-                <button onclick="searchLocation()">Search</button>
-                <h1 class="locationName"></h1>
-            </div> -->
 
             <!-- Sign in and sign out -->
             <div class="auth">
@@ -92,53 +85,23 @@
             </div>
         </div>
 
-        <!-- Location info -->
-         <div class="localInfo">
+        <!-- Location info and map -->
+         <div class="localInfo" id="infoMap">
+            <!-- To display the user's or searched location -->
             <div class="placeInfo">
                 <h1 class="locationName"></h1>
+                <h3 class="areaNameElem">in <span class="areaName"></span> area</h3>
             </div>
+
+            <!-- To display searched weather info of any location -->
             <div class="userWeatherInfo" id="userWeatherInfo"></div>
 
+            <!-- To display map -->
             <div class="placeMap" id="map"></div>
          </div>
 
         <!-- Weather forecast -->
         <div class="localWeatherForecast" id="weatherForecast">
-            <div class="weatherInfo1">
-                <h1 class="weather">Today</h1>
-                <img src="iconsource" alt="description" id="weatherIcon">
-                <p class="degree"><span class="temp"></span>&#176;C</p>
-                <p class="description"></p>
-                <hr style="width:90%;text-align:center;">
-                <p class="windS">Wind Speed:</p>
-                <p class="windSpeed"></p>
-                <p class="windC">Wind Chill:</p>
-                <p class="windChill"></p>
-            </div>
-
-            <div class="weatherInfo2">
-                <h1 class="weather">Tomorrow</h1>
-                <img src="iconsource" alt="description" id="weatherIcon">
-                <p class="degree"><span class="temp"></span>&#176;C</p>
-                <p class="description"></p>
-                <hr style="width:90%;text-align:center;">
-                <p class="windS">Wind Speed:</p>
-                <p class="windSpeed"></p>
-                <p class="windC">Wind Chill:</p>
-                <p class="windChill"></p>
-            </div>
-
-            <div class="weatherInfo3">
-                <h1 class="weather">Next Tomorrow</h1>
-                <img src="iconsource" alt="description" id="weatherIcon">
-                <p class="degree"><span class="temp"></span>&#176;C</p>
-                <p class="description"></p>
-                <hr style="width:90%;text-align:center;">
-                <p class="windS">Wind Speed:</p>
-                <p class="windSpeed"></p>
-                <p class="windC">Wind Chill:</p>
-                <p class="windChill"></p>
-            </div>
         </div> 
     </main>
     

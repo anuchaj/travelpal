@@ -1,0 +1,84 @@
+{
+    "locations": [
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/apples-logo.webp",
+        "name": "Aba",
+        "state": "Abia State",
+        "country": "Nigeria",
+        "maplink": "https://www.google.com/maps/place/Aba,+Abia/@5.1166291,7.3669458,12z/data=!4m6!3m5!1s0x104299308f30fbf3:0x98345ebf0c8cbca1!8m2!3d5.1215877!4d7.3732655!16zL20vMDQ5X3Ns?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Aba is a city in southeastern Nigeria and the commercial centre of Abia State. Aba South is the main city centre of Aba and Abia State at large, being located on the Aba River."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/amazon-logo.webp",
+        "name": "Bangkok",
+        "state": "Thai",
+        "country": "Thailand",
+        "maplink": "https://www.google.com/maps/place/Bangkok,+Thailand/@13.7245995,100.6331108,11z/data=!3m1!4b1!4m6!3m5!1s0x311d6032280d61f3:0x10100b25de24820!8m2!3d13.7563309!4d100.5017651!16zL20vMGZuMmc?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, home to opulent Grand Palace and its sacred Wat Phra Kaew Temple."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/ibm-logo.png",
+        "name": "Istanbul",
+        "state": "",
+        "country": "Turkey",
+        "maplink": "https://www.google.com/maps/place/%C4%B0stanbul,+T%C3%BCrkiye/@41.00485,28.6818409,10z/data=!3m1!4b1!4m6!3m5!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589!16zL20vMDk5NDlt?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here"
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/google-logo.webp",
+        "name": "London",
+        "state": "",
+        "country": "United Kingdom",
+        "maplink": "https://www.google.com/maps/place/London,+UK/@51.5281778,-0.4319252,10z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/sap-logo.webp",
+        "name": "Hong Kong",
+        "state": "",
+        "country": "China",
+        "maplink": "https://www.google.com/maps/place/Hong+Kong/@22.3523893,113.8090457,10z/data=!3m1!4b1!4m6!3m5!1s0x3403e2eda332980f:0xf08ab3badbeac97c!8m2!3d22.3193039!4d114.1693611!16zL20vMDNoNjQ?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Hong Kong is a special administrative region of China. With 7.4 million residents of various nationalities in a 1,104-square-kilometre territory, Hong Kong is the fourth most densely populated region in the world."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft-logo.webp",
+        "name": "Dubai",
+        "state": " ",
+        "country": "United Arab Emirates",
+        "maplink": "https://www.google.com/maps/place/Dubai+-+United+Arab+Emirates/@25.074721,54.6041904,10z/data=!3m1!4b1!4m6!3m5!1s0x3e5f43496ad9c645:0xbde66e5084295162!8m2!3d25.2048493!4d55.2707828!16zL20vMDFmMDhy?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft-logo.webp",
+        "name": "Paris",
+        "state": " ",
+        "country": "France",
+        "maplink": "https://www.google.com/maps/place/Paris,+France/@48.8588254,2.2644625,12z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.8575475!4d2.3513765!16zL20vMDVxdGo?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft-logo.webp",
+        "name": "Kuala Lumpur",
+        "state": " ",
+        "country": "Malaysia",
+        "maplink": "https://www.google.com/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur,+Malaysia/@3.1385026,101.6044152,12z/data=!3m1!4b1!4m6!3m5!1s0x31cc362abd08e7d3:0x232e1ff540d86c99!8m2!3d3.1319197!4d101.6840589!16zL20vMDQ5ZDE?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Kuala Lumpur is the capital of Malaysia. Its modern skyline is dominated by the 451m-tall Petronas Twin Towers, a pair of glass-and-steel-clad skyscrapers with Islamic motifs. The towers also offer a public skybridge and observation deck. The city is also home to British colonial-era landmarks such as the Kuala Lumpur Railway Station and the Sultan Abdul Samad Building."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft-logo.webp",
+        "name": "Rexburg",
+        "state": "Idaho",
+        "country": "United States",
+        "maplink": "https://www.google.com/maps/place/Rexburg,+ID,+USA/@43.8282576,-111.8341975,13z/data=!3m1!4b1!4m6!3m5!1s0x53540a4b807a98b1:0x4a49d8d1d2181c73!8m2!3d43.8231096!4d-111.7924237!16zL20vMHMyYnE?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Rexburg is a city in Madison County, Idaho, United States. The population was 39,409 at the 2020 census. The city is the county seat of Madison County and its largest city. Rexburg is the principal city of the Rexburg, ID Micropolitan Statistical Area, which includes Fremont and Madison counties."
+      },
+      {
+        "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft-logo.webp",
+        "name": "Provo",
+        "state": "Utah",
+        "country": "United States",
+        "maplink": "https://www.google.com/maps/place/Provo,+UT,+USA/@40.2568505,-111.9504081,11z/data=!3m1!4b1!4m6!3m5!1s0x874d9271930bf1bf:0x1d90f12600b556ef!8m2!3d40.2338438!4d-111.6585337!16zL20vMGwzOWI?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
+        "description": "Provo is a city in Utah. It's home to Brigham Young University and its museums, including the Monte L. Bean Life Science Museum. The BYU Museum of Paleontology houses a collection of dinosaur fossils. The BYU Museum of Art is a modern venue with a large permanent collection of paintings. The Crandall Historical Printing Museum has a working Gutenberg Press replica. Trails lead up Y Mountain for panoramic city views."
+      }
+    ]
+  }

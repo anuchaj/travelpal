@@ -5,6 +5,7 @@ const OPENCAGE_API_KEY = 'e3e7c27e7b074e95a4dd6a2ae642dfe9';
 
 // DOM Elements
 const locationElement = document.querySelector('.locationName');
+const areaElem = document.querySelector('.areaName');
 
 const map = L.map('map').setView([51.505, -0.09], 2); // Default map view (London)
 
@@ -67,7 +68,7 @@ function fetchLocationName(lat, lon) {
         console.log('this is', city_split);
         
         // Show data on console
-        console.log(data);
+        console.log("Location name ", data);
 
         //Update the <h1> element that shows the location name
         locationElement.innerText = city;
@@ -115,17 +116,18 @@ function getWeatherByCityName(city) {
 // Display the user's weather data
 function displayUserWeather(data) {
     console.log("Display weather2: ", data);
+    areaElem.innerHTML = data.name;
     userWeatherElem = document.getElementById("userWeatherInfo");
-    locationName = document.createElement("h1");
-    locationName.classList.add("userLocation");
-    locationName.innerHTML = `
-            <h3>Today</h3>
+    userWeather = document.createElement("div");
+    userWeather.classList.add("userLocation");
+    userWeather.innerHTML = `
+            <h3>Today's weather in ${data.name}! </h3>
             <p>Temperature: ${data.main.temp}°C</p>
             <p>Weather: ${data.weather[0].description}</p>
     `;
 
     //document.getElementById("userWeatherInfo"). innerHTML = data.main.temp;
-    userWeatherElem.appendChild(locationName);
+    userWeatherElem.appendChild(userWeather);
 }
 
 
@@ -133,6 +135,7 @@ function displayUserWeather(data) {
 function displaySearchedWeather(data) {
     const weatherInfo = document.getElementById("weatherForecast");
     document.getElementById("userWeatherInfo").style.display = "none";
+    document.querySelector(".areaNameElem").style.display = "none";
     weatherInfo.innerHTML = '';
 
     data.list.forEach(day => {

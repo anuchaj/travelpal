@@ -20,6 +20,9 @@ body {
     font-family: var(--header-font);
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Navbar */
 .navbar {

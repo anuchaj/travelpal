@@ -6,13 +6,13 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    const business = jsonObject['companies'];
+    const cities = jsonObject["locations"];
    
-    business.forEach(displayCard);
+    cities.forEach(displayCard);
   });
 
 
-function displayCard(biz) {
+function displayCard(city) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let businessName = document.createElement('p');
@@ -22,14 +22,14 @@ function displayCard(biz) {
     let portrait = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the biz's full name
-    businessName.textContent = biz.name;
-    address.textContent = biz.address;
-    phoneNum.textContent = biz.phone;
-    website.textContent = biz.website;
+    businessName.textContent = city.name;
+    address.textContent = city.address;
+    phoneNum.textContent = city.phone;
+    website.textContent = city.website;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', biz.imageurl);
-    portrait.setAttribute('alt', 'Logo of ' + biz.name);
+    portrait.setAttribute('src', city.imageurl);
+    portrait.setAttribute('alt', 'Logo of ' + city.name);
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the businessName element

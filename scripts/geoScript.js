@@ -114,8 +114,18 @@ function getWeatherByCityName(city) {
 
 // Display the user's weather data
 function displayUserWeather(data) {
-    console.log("Display weather2: ", data)
-    document.getElementById("userWeatherInfo"). innerHTML = data.main.temp;
+    console.log("Display weather2: ", data);
+    userWeatherElem = document.getElementById("userWeatherInfo");
+    locationName = document.createElement("h1");
+    locationName.classList.add("userLocation");
+    locationName.innerHTML = `
+            <h3>Today</h3>
+            <p>Temperature: ${data.main.temp}°C</p>
+            <p>Weather: ${data.weather[0].description}</p>
+    `;
+
+    //document.getElementById("userWeatherInfo"). innerHTML = data.main.temp;
+    userWeatherElem.appendChild(locationName);
 }
 
 

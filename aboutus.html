@@ -1,0 +1,104 @@
+<!--Destination details page-->
+<!--Home page-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>TravelPal | Travel Planner and Agency  </title>
+    <meta name="viewport" content="width=device-width">
+    <meta content="" name="keywords">
+    <meta name = "description" content = "This is TravelPal">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main_style.css">
+    <!-- <link rel="stylesheet" href="styles/medium.css"> -->
+    <link rel="stylesheet" href="styles/small.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Header contents -->
+    <header>
+        <nav class="navbar">
+            <!-- Logo and business name -->
+            <div class="logo">
+                <h1><a href="#">Travel<span>Pal</span></a></h1>
+            </div>
+
+            <!-- Menu bar -->
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li  class="active"><a href="#">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Search bar -->
+            <div class="search">
+                <input type="text" id="location" placeholder="Enter city, state, or country" />
+                <button class="search-btn" onclick="searchLocation()"><a class="link" href="#infoMap">🔍</a></button>
+            </div>
+
+            <!-- Sign in and sign out -->
+            <div class="auth">
+                <button class="sign-in">Sign In</button>
+                <button class="sign-up">Sign Up</button>
+            </div>
+
+            <!-- Hamburger button -->
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Main contents starts here -->
+    <main >
+    
+    </main>
+    
+    <!-- Footer starts here -->
+    <footer>
+        <section>
+            <h1><a href="#">Travel<span>Pal</span></a></h1>
+            <p><a class="openWeather" href="https://openweathermap.org/" 
+                style="text-decoration: none;">Weather Info from OpenWeather.org</a>
+            </p>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/"><img src="assets/images/fb-icon.png" alt="Facebook Icon"></a>
+                <a href="https://www.linkedin.com/"><img src="assets/images/in-icon.png" alt="Linked Icon"></a>
+            </div>
+        </section>
+        <section>
+            <p>info@travepal.com</p>
+            <p>+234 (806) 432 7684</p>
+            <p><a class="map" href=https://tinyurl.com/abainthemap>📍 Location Map</a></p>
+        </section>
+        <section class="baseFooter">
+            <p>&#169;2025 TravelPal</p>
+            <p>Joseph Anucha</p>
+            <p>WDD 330 Final Project</p>
+            <section id="timemod"></section>
+        </section>
+    </footer>
+
+    
+	<script src="scripts/locations.js"></script>
+	<script src="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
-const requestURL = 'https://anuchaj.github.io/wdd330/travelpal/data/locations.json';
-//const requestURL = "../data/companies.json";
+const requestURL = 'https://anuchaj.github.io/travelpal/data/locations.json';
+//const requestURL = "..data/locations.json";
 
 fetch(requestURL)
   .then(function (response) {
@@ -16,16 +16,18 @@ function displayCard(city) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let businessName = document.createElement('p');
-    let address = document.createElement('p');
-    let phoneNum = document.createElement('p');
-    let website = document.createElement('a');
+    let state = document.createElement('p');
+    let country = document.createElement('p');
+    let link = document.createElement('a');
+    let description = document.createElement('p');
     let portrait = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the biz's full name
     businessName.textContent = city.name;
-    address.textContent = city.address;
-    phoneNum.textContent = city.phone;
-    website.textContent = city.website;
+    state.textContent = city.state;
+    country.textContent = city.country;
+    link.textContent = city.maplink;
+    description.textContent = city.description;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', city.imageurl);
@@ -35,9 +37,10 @@ function displayCard(city) {
     // Add/append the section(card) with the businessName element
     card.appendChild(portrait);
     card.appendChild(businessName);
-    card.appendChild(address);
-    card.appendChild(phoneNum);
-    card.appendChild(website);
+    card.appendChild(state);
+    card.appendChild(country);
+    //card.appendChild(link);
+    card.appendChild(description);
     
   
     // Add/append the existing HTML div with the cards class with the section(card)

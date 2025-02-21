@@ -18,7 +18,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /* Mobile Menu - Hide by default */
 @media screen and (max-width: 768px) {
     /* Navbar */
-    .menu ul {
+    .menu {
         display: none;
         flex-direction: column;
         position: absolute;
@@ -29,6 +29,30 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         padding: 10px;
     }
 
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu.active {
+        display: block;
+        margin: auto 30px;
+    }
+
+    /* Local information and weather */
+    .localInfo {
+        display: block;
+    }
+
+    /* 
     .menu ul li {
         margin: 15px 0;
     }
@@ -43,7 +67,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
     .active {
         display: flex !important;
-    }
+    } */
 
 
     /* Weather information */

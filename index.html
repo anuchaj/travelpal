@@ -36,6 +36,17 @@
                 <h1><a href="#">Travel<span>Pal</span></a></h1>
             </div>
 
+            <!-- Search bar -->
+            <div class="search">
+                <input type="text" id="location" placeholder="Enter city, state, or country" />
+                <button class="search-btn" onclick="searchLocation()"><a class="link" href="#infoMap">🔍</a></button>
+            </div>
+
+            <!-- Hamburger button -->
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+
             <!-- Menu bar -->
             <div class="menu">
                 <ul>
@@ -43,25 +54,16 @@
                     <li><a href="destination.html">Destinations</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
                     <li><a href="contactus.html">Contact Us</a></li>
+                    <li class="sign-in"><a href="#">Sign In</a></li>
+                    <li class="sign-up"><a href="#">Sign Up</a></li>
                 </ul>
             </div>
 
-            <!-- Search bar -->
-            <div class="search">
-                <input type="text" id="location" placeholder="Enter city, state, or country" />
-                <button class="search-btn" onclick="searchLocation()"><a class="link" href="#infoMap">🔍</a></button>
-            </div>
-
-            <!-- Sign in and sign out -->
+            <!-- Sign in and sign out
             <div class="auth">
                 <button class="sign-in">Sign In</button>
                 <button class="sign-up">Sign Up</button>
-            </div>
-
-            <!-- Hamburger button -->
-            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-                ☰
-            </div>
+            </div> --> 
         </nav>
 
     </header>
@@ -86,7 +88,7 @@
         </div>
 
         <!-- Location info and map -->
-         <div class="localInfo" id="infoMap">
+        <div class="localInfo" id="infoMap">
             <!-- To display the user's or searched location -->
             <div class="placeInfo">
                 <h1 class="locationName"></h1>
@@ -98,7 +100,7 @@
 
             <!-- To display map -->
             <div class="placeMap" id="map"></div>
-         </div>
+        </div>
 
         <!-- Weather forecast -->
         <div class="localWeatherForecast" id="weatherForecast">

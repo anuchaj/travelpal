@@ -68,8 +68,36 @@
     </header>
 
     <!-- Main contents starts here -->
-    <main >
-    
+    <main class="contact">
+
+        <aside class="address" >
+            <h1>Contact Us</h1>
+            <h3>Address</h3>
+            <p>180 Temple Road<br> Aba, Abia State. Nigeria</p>
+            <h3>Phone</h3>
+            <p>+234(806) 4327-684</p>
+            <h3>Email</h3>
+            <p>info@abachambers.com</p>
+            <br>
+            <hr style="width:60%;text-align:left;margin-left: 0;">
+            <br>
+            <div class="hours" >
+                <h3>Business Hours</h3>
+                <p>Monday thru Thursday: 9:00 a.m. to 4:30 p.m.</p>
+                <p>Friday: By Appointment Only</p>
+            </div>
+        </aside>
+
+        <form method="get" action="thankyou_contact.html">
+            <fieldset>
+                <legend>Basic Inquiries</legend>
+                <label class="info">Name* <input type="text" name="fullname" placeholder="John Wick"required></label>
+                <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Phone* <input type="tel" name="phone" placeholder="1234567890"></label>
+                <label class="info">Questions/Concerns/Comments<textarea name="description" placeholder="We want to hear from you"></textarea></label>   
+            </fieldset>
+            <label class="csubmit"><input type="submit" value="Send Now"  class="submitBtn"></label>
+        </form>
     </main>
     
     <!-- Footer starts here -->

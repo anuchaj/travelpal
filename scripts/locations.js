@@ -55,7 +55,7 @@ function displayCard(city) {
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('#cards').appendChild(card);
-  }
+}
 
 
 function gridView() {

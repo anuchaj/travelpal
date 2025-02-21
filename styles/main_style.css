@@ -112,6 +112,7 @@ div.auth button {
 .hamburger {
     display: none;
     font-size: 30px;
+    color: white;
     cursor: pointer;
 }
 

@@ -30,11 +30,4 @@ function toggleMenu() {
   menu.classList.toggle('active');
 }
 
-// Function to toggle the menu bar on smaller viewport
-//function toggleMenu(){
-    //document.querySelector('#primaryNav').classList.toggle('open');
-    //document.querySelector('#hamburgerBtn').classList.toggle('open');
-//}
 
-//const hamButton = document.querySelector('#hamburgerBtn');
-//hamButton.onclick = toggleMenu;

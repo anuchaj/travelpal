@@ -16,6 +16,7 @@
     <!-- Libraries Stylesheet -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main_style.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <!-- <link rel="stylesheet" href="styles/medium.css"> -->
     <link rel="stylesheet" href="styles/small.css">
 
@@ -37,31 +38,24 @@
                 <h1><a href="#">Travel<span>Pal</span></a></h1>
             </div>
 
-            <!-- Menu bar -->
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="destination.html">Destinations</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li  class="active"><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-
             <!-- Search bar -->
             <div class="search">
                 <input type="text" id="location" placeholder="Enter city, state, or country" />
                 <button class="search-btn" onclick="searchLocation()"><a class="link" href="#infoMap">🔍</a></button>
             </div>
 
-            <!-- Sign in and sign out -->
-            <div class="auth">
-                <button class="sign-in">Sign In</button>
-                <button class="sign-up">Sign Up</button>
-            </div>
-
             <!-- Hamburger button -->
             <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-                ☰
+                &#9776;
+            </div>
+
+            <!-- Menu bar -->
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
             </div>
         </nav>
 
@@ -73,11 +67,11 @@
         <aside class="address" >
             <h1>Contact Us</h1>
             <h3>Address</h3>
-            <p>180 Temple Road<br> Aba, Abia State. Nigeria</p>
+            <p>180 Temple Road<br> Aba, Nigeria</p>
             <h3>Phone</h3>
             <p>+234(806) 4327-684</p>
             <h3>Email</h3>
-            <p>info@abachambers.com</p>
+            <p>info@travepal.com</p>
             <br>
             <hr style="width:60%;text-align:left;margin-left: 0;">
             <br>
@@ -91,8 +85,8 @@
         <form method="get" action="thankyou_contact.html">
             <fieldset>
                 <legend>Basic Inquiries</legend>
-                <label class="info">Name* <input type="text" name="fullname" placeholder="John Wick"required></label>
-                <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Name* <input type="text" name="fullname" placeholder="Joseph Anucha"required></label>
+                <label class="info">Email* <input type="email" name="email" placeholder="youremail@gmail.com" required></label>
                 <label class="info">Phone* <input type="tel" name="phone" placeholder="1234567890"></label>
                 <label class="info">Questions/Concerns/Comments<textarea name="description" placeholder="We want to hear from you"></textarea></label>   
             </fieldset>

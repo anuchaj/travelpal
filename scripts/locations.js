@@ -51,7 +51,7 @@ function displayCard(city) {
     card.appendChild(country);
     card.appendChild(description);
     card.appendChild(link);
-    card.appendChild(saveBtn);
+    //card.appendChild(saveBtn);
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('#cards').appendChild(card);

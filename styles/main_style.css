@@ -214,6 +214,32 @@ div.action h1 {
     background-color: var(--third-color);
 }
 
+/* Animation */
+section.animate {
+    background-color: var(--main-color);
+    margin: 3px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    animation: myanima 3s infinite alternate;
+}
+
+@keyframes myanima {
+    0% {
+      transform: translateY(0);
+      background-color: var(--accent);
+    }
+    50% {
+      transform: translateX(200px) translateY(-100px);
+      background-color: var(--second-color);
+      color: var(--accent);
+    }
+    100% {
+      transform: translateX(-100px) translateY(-100px);
+      background-color: var(--third-color);
+    }
+}
+
 
 /* Weather information */
 .localWeatherForecast {
